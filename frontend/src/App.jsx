@@ -6,7 +6,7 @@ export default function App() {
 
   // Fetching data from the backend when the component mounts
   useEffect(() => {
-    console.log('Fetching data...');
+    console.log('Fetching data');
     
     async function fetchData() {
       try {
